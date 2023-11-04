@@ -31,7 +31,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="project-container1">
+        <div className="project-container1"> 
           <div className="project-cart">
             <ProjectCart description="Indulge in a culinary adventure with our Restaurant Website, powered by the dynamic MERN stack. Explore a diverse menu featuring an array of delectable dishes. Customize your dining experience by selecting items, adjusting quantities, and seamlessly adding them to your cart. The integrated cart system provides a snapshot of your culinary choices, while the MERN stack ensures a robust tracking feature for a delightful and efficient dining experience." img="./images/proj2.png" tittle="Restaurant Website" link="https://github.com/Kunal1223/Mern_Resturent" />
           </div>

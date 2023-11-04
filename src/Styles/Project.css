@@ -1,10 +1,10 @@
-.mega-box{
+.mega-box {
     width: 100%;
     overflow: hidden;
     height: auto;
 }
 
-.cont{ 
+.cont {
     margin-top: 6%;
     text-align: center;
     display: flex;
@@ -23,41 +23,40 @@
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
     }
 }
 
 
-.cont h1{
+.cont h1 {
     font-size: 38px;
     color: white;
     font-weight: 700;
 }
 
-.cont h5{
+.cont h5 {
     color: white;
     font-size: 14px;
     margin-top: 2px;
 }
 
-.project-container{
+.project-container {
     display: flex;
-    margin-left: 2%;
+    justify-content: space-around;
     margin-top: 2%;
     width: 100%;
-    gap: 4%; 
 }
 
-.project-container1{
+.project-container1 {
     display: flex;
-    margin-left: 2%;
+    justify-content: space-around;
     margin-top: 8%;
     width: 100%;
-    gap: 4%;
 }
 
-.container{
+.container {
     border: 1px solid red;
     width: 320px;
     height: 510px;
@@ -74,25 +73,25 @@
     transform: scaleY(1.02);
 }
 
-.cart-pic{
+.cart-pic {
     margin-top: 10px;
     width: 300px;
     height: 130px;
 }
 
-.cart-heading h1{
-    color : red;
+.cart-heading h1 {
+    color: red;
     font-size: 20px;
 }
 
-.description h3{
+.description h3 {
     color: rgb(168, 163, 163);
     font-weight: 400;
     font-size: 14px;
     margin: 1% 8% 8% 8%;
 }
 
-.btn1{
+.btn1 {
     background-color: red;
     color: white;
     border-radius: 5px;
@@ -103,7 +102,7 @@
     cursor: pointer;
 }
 
-.btn1 a{
+.btn1 a {
     text-decoration: none;
     color: white;
 }
@@ -112,39 +111,39 @@
 
 @media (max-width: 600px) {
     .cont {
-      margin-left: 10%;
+        margin-left: 10%;
     }
-  
+
     .rotate {
-      margin-top: 10px;
-      width: 120px;
+        margin-top: 10px;
+        width: 120px;
     }
-  
+
     .cont h1 {
-      font-size: 28px;
+        font-size: 28px;
     }
-  
+
     .cont h5 {
-      font-size: 12px;
+        font-size: 12px;
     }
-  
+
     .project-container,
     .project-container1 {
-      flex-direction: column;
-      margin-left: 5%;
+        flex-direction: column;
+        margin-left: 5%;
     }
-  
+
     .container {
-      width: 80%;
-      margin-left: 4%;
-      margin-top: 5%;
+        width: 80%;
+        margin-left: 4%;
+        margin-top: 5%;
     }
-  
+
     .cart-pic {
-      width: 90%;
+        width: 90%;
     }
-  
+
     .btn1 {
-      margin-top: 10px;
+        margin-top: 10px;
     }
-  }
+}
