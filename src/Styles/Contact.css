@@ -1,0 +1,56 @@
+.mega-contact-container{
+    margin-top: 10%;
+    margin-left: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact{
+    width: 50%;
+}
+
+.contact h1{
+    color: #E34C40;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.contact h6{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.reach h1{
+    color: #E34C40;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+.socials {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+  }
+  
+  .icons {
+    
+    margin-right: 4%;
+    border-radius: 30px;
+    border: 1px solid white; /* Adjust the margin as needed for spacing between icons */
+  }
+  
+  .icon {
+    padding: 8px 10px;
+    font-size: 1.5rem; 
+    color: #ffffff; 
+    transition: color 0.3s ease; 
+  }
+
+  .icon:hover {
+    color: red; 
+  }
+
+
+  
