@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles/Home.css';
-import { HiHome, HiUser, HiViewColumns, HiEnvelope } from 'react-icons/hi2';
+import { HiHome, HiViewColumns, HiEnvelope } from 'react-icons/hi2';
 import { NavLink, useLocation } from 'react-router-dom';
 import { GiSkills } from "react-icons/gi"
 

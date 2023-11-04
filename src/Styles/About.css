@@ -1,0 +1,84 @@
+ .about-container{
+    margin-left: 10%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .about-container h1{
+    color: #f13024;
+    font-size: 38px;
+    margin-left: 20px;
+ }
+
+ .hr{
+    width: 120px;
+    height: 1px;
+    color: #f13024;
+    background-color: #f13024;
+    margin-right:70%;
+    margin-top: -24px;
+    margin-bottom: 10px
+ }
+
+ .skill-logo{
+    display: flex;
+    color: rgb(224, 242, 187);
+ }
+
+ .s-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0px;
+    padding-right:40px;
+ }
+
+ .logo{
+    width: 60%;
+    align-items: center;
+    text-align: center;
+    margin-top: 18px;
+    height: 60%;
+    /* filter: drop-shadow(10px 10px 100px yellow); */
+
+ }
+
+ .tool{
+   margin-left: 10%;
+   justify-content: space-between;
+}
+
+.tool h1{
+   color: #f13024;
+    font-size: 38px;
+    margin-left: 20px;
+}
+
+.hr1{
+   width: 150px;
+   height: 1px;
+   color: #f13024;
+   background-color: #f13024;
+   margin-right:84%;
+   margin-top: -24px;
+   margin-bottom: 10px
+}
+
+.img{
+   margin-top: 40px;
+   margin-right: 190px;
+}
+
+.bulb{
+   width: 200px;
+   filter: drop-shadow(20px 40px 200px #dc8a66);
+   mix-blend-mode:exclusion;
+}
+
+
+
+
+
