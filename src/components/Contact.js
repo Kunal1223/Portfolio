@@ -34,7 +34,7 @@ const Contact = () => {
                 <a href="https://www.linkedin.com/in/kunal-kishor-3868a7244/" > <BsLinkedin className='icon'/></a>
                </div>
             </div>
-          </div>
+          </div> 
         </div> 
 
         <div className="contact-right">
