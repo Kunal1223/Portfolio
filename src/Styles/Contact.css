@@ -1,56 +1,82 @@
-.mega-contact-container{
-    margin-top: 10%;
-    margin-left: 6%;
-    display: flex;
-    justify-content: space-between;
+/* Default styles for larger screens */
+.mega-contact-container {
+  margin-top: 10%;
+  margin-left: 6%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.contact{
-    width: 50%;
+.contact {
+  width: 50%;
 }
 
-.contact h1{
-    color: #E34C40;
-    font-size: 36px;
-    font-weight: 700;
+.contact h1 {
+  color: #e34c40;
+  font-size: 36px;
+  font-weight: 700;
 }
 
-.contact h6{
-    color: white;
-    font-size: 16px;
-    font-weight: 400;
+.contact h6 {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
 }
 
-.reach h1{
-    color: #E34C40;
-    font-size: 36px;
-    font-weight: 700;
-    margin-top: 10%;
+.reach h1 {
+  color: #e34c40;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 10%;
 }
 
 .socials {
-    display: flex;
-    justify-content:left;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.icons {
+  margin-right: 4%;
+  border-radius: 30px;
+  border: 1px solid white; /* Adjust the margin as needed for spacing between icons */
+}
+
+.icon {
+  padding: 8px 10px;
+  font-size: 1.5rem;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: red;
+}
+
+/* Media query for screens smaller than 600px (adjust the value as needed) */
+@media (max-width: 600px) {
+  .mega-contact-container {
+    flex-direction: column;
     align-items: center;
-  }
-  
-  .icons {
-    
-    margin-right: 4%;
-    border-radius: 30px;
-    border: 1px solid white; /* Adjust the margin as needed for spacing between icons */
-  }
-  
-  .icon {
-    padding: 8px 10px;
-    font-size: 1.5rem; 
-    color: #ffffff; 
-    transition: color 0.3s ease; 
+    margin-left: 5%;
   }
 
-  .icon:hover {
-    color: red; 
+  .contact {
+    width: 100%;
   }
 
+  .contact h6 {
+    margin:0% 2.2%;
+  }
 
-  
+  .reach h1 {
+    margin-top: 5%;
+  }
+
+  .socials {
+    justify-content: left;
+  }
+
+  .phone{
+    margin-right: 0;
+  }
+}

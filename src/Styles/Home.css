@@ -225,8 +225,23 @@
   width: 80px;
   padding: 6px 16px;
   border-radius: 8px;
-
-  
 }
 
   
+
+
+/* ############################# responsiveness ############# */
+@media (max-width: 600px) {
+  .custom-nav {
+    top: 100%;
+    transform: translateY(-100%); 
+  }
+  
+  .btn{
+    margin-left: 20%;
+  }
+
+  .hidden-for-mobile{
+    margin-top: 4%;
+  }
+}

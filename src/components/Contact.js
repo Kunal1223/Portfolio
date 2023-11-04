@@ -35,7 +35,7 @@ const Contact = () => {
                </div>
             </div>
           </div>
-        </div>
+        </div> 
 
         <div className="contact-right">
           <img src="./images/phone.png" alt="" className='phone'/>

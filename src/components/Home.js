@@ -21,7 +21,8 @@ const Home = () => {
               <span className='text-accent'> <Writter /> </span>
             </motion.h1>
             <motion.p variants={fadeIn('down', 0.3)} initial='hidden' animate='show' exit='hidden' className='max-width-paragraph'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, repudiandae laboriosam inventore possimus neque blanditiis quae praesentium excepturi at? Architecto fuga nesciunt neque quae ab laudantium, aliquid aspernatur reprehenderit odit.
+            I am purusing a Bachelor's degree in Information Science and Engineering.
+            Passionate about turning ideas into seamless digital experiences. Let's innovate together!
             </motion.p>
 
             {/* Project Button */}

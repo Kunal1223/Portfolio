@@ -83,7 +83,7 @@ const About = () => {
             <SiPostman className='logo' />
           </div>
           <div className="s-logo">
-            <SiVercel className='logo' />
+            <SiVercel className='logo' /> 
           </div>
           <div className="s-logo">
             <DiGit className='logo' />

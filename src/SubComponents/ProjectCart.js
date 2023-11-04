@@ -8,7 +8,7 @@ const ProjectCart = ({ description, img, tittle, link }) => {
                     <img src={img} alt="" className='cart-pic'/>
                 </div>
                 <div className="cart-heading">
-                    <h1>{tittle}</h1>
+                    <h1>{tittle}</h1> 
                 </div>
                 <div className="description">
                     <h3>{description}</h3>

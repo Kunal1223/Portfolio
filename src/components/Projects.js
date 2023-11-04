@@ -5,7 +5,7 @@ import ParticlesContainer from '../SubComponents/Particles';
 
 const Projects = () => {
   return (
-    <>
+    <> 
       <div className="mega-box">
         <div className="cont">
           <div className="text">
