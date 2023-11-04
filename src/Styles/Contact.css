@@ -35,14 +35,18 @@
   align-items: center;
 }
 
+.test{
+  margin-right: 5%;
+}
+
+
 .icons {
-  margin-right: 4%;
   border-radius: 30px;
   border: 1px solid white; 
 }
 
 .icon {
-  padding: 8px 10px;
+  padding: 10px 12px;
   font-size: 1.5rem;
   color: #ffffff;
   transition: color 0.3s ease;
