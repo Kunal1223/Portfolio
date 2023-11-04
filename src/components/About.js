@@ -91,7 +91,7 @@ const About = () => {
         </div>
       </div>
 
-      <ParticlesContainer particleColor='#f4f725' linkColor='#47e02f' number="500" />
+      <ParticlesContainer particleColor='#DC4C5B' linkColor='#FBE093' number="500" />
 
     </>
   );
