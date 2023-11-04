@@ -1,0 +1,232 @@
+/* ############### for the left image ####################/ */
+.background-container{
+    overflow: hidden;
+}
+
+.custom-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    mix-blend-mode: color-dodge;
+    z-index: 0;
+    width: 600px; 
+    max-width: 400px;
+
+    opacity: 0.5;
+  }
+  
+  .custom-image {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ################################## for the links ################## */
+  
+  .custom-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center; 
+    gap: 6%;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%); 
+    right: 0; 
+    z-index: 1;
+    padding: 20px;
+  }
+  
+  
+  .custom-nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 10px 20px;
+    background-color: #333443;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .custom-nav-group {
+    position: relative;
+    color: white;
+  }
+  
+  .custom-nav-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: inherit;
+    transition: all 0.3s;
+  }
+  
+  .custom-hover-box {
+    position: absolute;
+    right: 30px;
+    display: none;
+    transition: all 0.3s;
+  }
+  
+  .custom-nav-link:hover .custom-hover-box {
+    display: flex;
+    color: #f13024;
+  }
+  
+  .custom-tooltip {
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    color: #000;
+    align-items: center;
+    padding: 6px;
+    border-radius: 3px;
+    font-size: 12px;
+  }
+
+  .links-color:hover{
+    color: #f13024;
+  }
+
+
+/* ####################################### content ############################### */
+.background-container {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+
+  }
+  
+  .gradient-container {
+    height: 100%;
+    width: 100%;
+    /* background: linear-gradient(to right, rgba(65, 105, 225, 0.1), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)); */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    padding: 25px;
+  }
+  
+  .text-container {
+    max-width: 100%;
+    margin: 2.2% 2%;
+    align-items: start;
+    text-align: left;
+  }
+  
+  .h2 {
+    font-size: 3.4rem;
+    color: #fff;
+    margin-bottom: 10px; 
+  }
+  
+  .text-accent {
+    color:#f13024;
+  }
+  
+  .max-width-paragraph {
+    max-width: 600px;
+    margin: 0 0;
+    text-align: left;
+    color: #969494;
+  }
+  
+  /* Project Button Styles */
+
+  .particles-container {
+    width: 1000px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  
+
+  /* ############################## ProjectBtn ################################# */
+  .mx-auto {
+    margin-left: 2%;
+    margin-top: 4%;
+    margin-right: auto;
+  }
+  
+  .project-link {
+    position: relative;
+    display: inline-block;
+    width: 185px;
+    height: 185px;
+    text-align: center;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 100%;
+    max-width: 141px;
+    max-height: 148px;
+    animation: spin-slow 6s linear infinite;
+  }
+  
+  .arrow-icon {
+    position: absolute;
+    font-size: 2rem;
+    bottom: 50%;
+    left: 30%;
+    color: rgb(246, 243, 243);
+    transform: translateX(50%);
+    opacity: 0.5;
+    transition: all 0.3s;
+  }
+  
+  .arrow-icon:hover {
+    transform: translateX(20%) translateX(-11px);
+    opacity: 1;
+  }
+  
+  
+  .project-link:hover .arrow-icon {
+    transform: translateX(40%) translateX(12px);
+    opacity: 1;
+  }
+  
+  @keyframes spin-slow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  /* ############################### particles ################################# */
+  .particles-container {
+    position: absolute;
+    width: 86%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 4;
+  }
+  
+
+  /* ################################## resume ################### */
+.btn{
+  display: flex;
+  text-decoration: none;
+  color: white;
+  margin-top: -5%;
+  margin-left: 8%;
+  align-items: center;
+  text-align: center;
+  background-color: red;
+  width: 80px;
+  padding: 6px 16px;
+  border-radius: 8px;
+
+  
+}
+
+  
