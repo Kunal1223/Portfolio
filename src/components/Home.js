@@ -6,7 +6,7 @@ import ProjectBtn from '../SubComponents/ProjectBtn';
 import ParticlesContainer from '../SubComponents/Particles';
 import { AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
-import pdf from "../SubComponents/Resume.pdf"
+import pdf from "../SubComponents/Resume1.pdf"
 import Writter from "../SubComponents/Writter"
 
 const Home = () => {
